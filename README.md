@@ -5,7 +5,7 @@ FunFuzz Artifact
 # Setup
 
 ```
-$ chmod +x ./build.sh && ./build.sh
+$ docker build -t funfuzz-artifact -f Dockerfile
 ```
 
 # Launch
